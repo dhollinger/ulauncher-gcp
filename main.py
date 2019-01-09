@@ -25,22 +25,77 @@ class KeywordQueryEventListener(EventListener):
             ],
             [
                 "Compute Engine",
-                OpenUrlAction("https://console.cloud.google.com/compute/"),
+                OpenUrlAction("https://console.cloud.google.com/compute"),
                 "images/compute_icon.png"
             ],
             [
                 "Kubernetes Engine",
-                OpenUrlAction("https://console.cloud.google.com/kubernetes/"),
+                OpenUrlAction("https://console.cloud.google.com/kubernetes"),
                 "images/kube_icon.png"
             ],
             [
                 "Cloud SQL",
-                OpenUrlAction("https://console.cloud.google.com/sql/"),
+                OpenUrlAction("https://console.cloud.google.com/sql"),
                 "images/sql_icon.png"
             ],
             [
+                "App Engine",
+                OpenUrlAction("https://console.cloud.google.com/appengine"),
+                "images/sql_icon.png"
+            ],
+            [
+                "Cloud Functions",
+                OpenUrlAction("https://console.cloud.google.com/functions"),
+                "images/sql_icon.png"
+            ],
+            [
+                "Storage",
+                OpenUrlAction("https://console.cloud.google.com/storage"),
+                "images/sql_icon.png"
+            ],
+            [
+                "VPC Network",
+                OpenUrlAction("https://console.cloud.google.com/networking"),
+                "images/sql_icon.png"
+            ],
+            [
+                "Network Services",
+                OpenUrlAction("https://console.cloud.google.com/net-services"),
+                "images/sql_icon.png"
+            ],
+            [
+                "Cloud Build",
+                OpenUrlAction("https://console.cloud.google.com/cloud-build"),
+                "images/sql_icon.png"
+            ],
+            [
+                "Container Registry",
+                OpenUrlAction("https://console.cloud.google.com/gcr"),
+                "images/sql_icon.png"
+            ],
+            [
+                "Security",
+                OpenUrlAction("https://console.cloud.google.com/security"),
+                "images/gcp_logo.png"
+            ],
+            [
+                "Billing",
+                OpenUrlAction("https://console.cloud.google.com/billing"),
+                "images/gcp_logo.png"
+            ],
+            [
+                "IAM & Admin",
+                OpenUrlAction("https://console.cloud.google.com/iam-admin"),
+                "images/gcp_logo.png"
+            ],
+            [
+                "Marketplace",
+                OpenUrlAction("https://console.cloud.google.com/marketplace"),
+                "images/gcp_logo.png"
+            ],
+            [
                 "Pricing Calculator",
-                OpenUrlAction("https://cloud.google.com/products/calculator/"),
+                OpenUrlAction("https://cloud.google.com/products/calculator"),
                 "images/gcp_logo.png"
             ]
         ]
