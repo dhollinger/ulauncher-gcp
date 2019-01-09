@@ -41,37 +41,37 @@ class KeywordQueryEventListener(EventListener):
             [
                 "App Engine",
                 OpenUrlAction("https://console.cloud.google.com/appengine"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "Cloud Functions",
                 OpenUrlAction("https://console.cloud.google.com/functions"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "Storage",
                 OpenUrlAction("https://console.cloud.google.com/storage"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "VPC Network",
                 OpenUrlAction("https://console.cloud.google.com/networking"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "Network Services",
                 OpenUrlAction("https://console.cloud.google.com/net-services"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "Cloud Build",
                 OpenUrlAction("https://console.cloud.google.com/cloud-build"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "Container Registry",
                 OpenUrlAction("https://console.cloud.google.com/gcr"),
-                "images/sql_icon.png"
+                "images/gcp_logo.png"
             ],
             [
                 "Security",
