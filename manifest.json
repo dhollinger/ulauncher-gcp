@@ -1,0 +1,20 @@
+{
+  "manifest_version": "2",
+  "api_version": "1",
+  "name": "GCP Launcher",
+  "description": "Google Cloud Platform services for Ulauncher!",
+  "developer_name": "Alex Pooley (@Zeue)",
+  "icon": "images/gcp_logo.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "GCP Launcher",
+      "description": "Google Cloud Platform services for Ulauncher!",
+      "default_value": "gcp"
+    }
+  ]
+}
