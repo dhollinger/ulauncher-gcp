@@ -1,0 +1,19 @@
+version: v1
+description: Notify team members with Slack
+
+steps:
+- name: init-workflow
+  image: alpine:latest
+  input:
+    - echo "Initializing workflow - Notify with Slack"
+    - echo "Provisioning a GKE cluster"
+- name: slack-notify
+  image: projectnebula/slack-notification:bf8ecb9
+  spec:
+    apitoken:
+      $type: Secret
+      name: slack-token
+    channel: "#nebula-workflows"
+    message: "You got notified with Nebula! Good job everyone."
+  dependsOn:
+  - init-workflow
