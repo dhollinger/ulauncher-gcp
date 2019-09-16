@@ -13,7 +13,7 @@ steps:
     apitoken:
       $type: Secret
       name: slack-token
-    channel: "#nebula-workflows"
+    channel: "#general"
     message: "You got notified with Nebula! Good job everyone."
   dependsOn:
   - init-workflow
