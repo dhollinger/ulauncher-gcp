@@ -2,7 +2,7 @@
   "required_api_version": "^2.0.0",
   "name": "GCP Launcher",
   "description": "Google Cloud Platform services for Ulauncher!",
-  "developer_name": "Alex Pooley (@Zeue)",
+  "developer_name": "Alex Pooley (@Zeue), David Hollinger (@dhollinger)",
   "icon": "images/gcp_logo.png",
   "options": {
     "query_debounce": 0.1
