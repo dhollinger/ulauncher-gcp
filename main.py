@@ -16,6 +16,7 @@ class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
 
         actions = list()
+        query = event.get_argument() or ""
 
         array = [
             [
@@ -99,6 +100,9 @@ class KeywordQueryEventListener(EventListener):
                 "images/gcp_logo.png"
             ]
         ]
+
+        if query != "":
+           array = [x for x in array if query.lower() in x[0].lower()]
 
         for val in array:
             actions.append(
