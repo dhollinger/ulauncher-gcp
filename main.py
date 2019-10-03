@@ -42,62 +42,62 @@ class KeywordQueryEventListener(EventListener):
             [
                 "App Engine",
                 OpenUrlAction("https://console.cloud.google.com/appengine"),
-                "images/gcp_logo.png"
+                "images/app_engine_icon.png"
             ],
             [
                 "Cloud Functions",
                 OpenUrlAction("https://console.cloud.google.com/functions"),
-                "images/gcp_logo.png"
+                "images/cloud_functions_icon.png"
             ],
             [
                 "Storage",
                 OpenUrlAction("https://console.cloud.google.com/storage"),
-                "images/gcp_logo.png"
+                "images/storage_icon.png"
             ],
             [
                 "VPC Network",
                 OpenUrlAction("https://console.cloud.google.com/networking"),
-                "images/gcp_logo.png"
+                "images/vpc_network_icon.png"
             ],
             [
                 "Network Services",
                 OpenUrlAction("https://console.cloud.google.com/net-services"),
-                "images/gcp_logo.png"
+                "images/network_services_icon.png"
             ],
             [
                 "Cloud Build",
                 OpenUrlAction("https://console.cloud.google.com/cloud-build"),
-                "images/gcp_logo.png"
+                "images/build_icon.png"
             ],
             [
                 "Container Registry",
                 OpenUrlAction("https://console.cloud.google.com/gcr"),
-                "images/gcp_logo.png"
+                "images/container_registry_icon.png"
             ],
             [
                 "Security",
                 OpenUrlAction("https://console.cloud.google.com/security"),
-                "images/gcp_logo.png"
+                "images/security_icon.png"
             ],
             [
                 "Billing",
                 OpenUrlAction("https://console.cloud.google.com/billing"),
-                "images/gcp_logo.png"
+                "images/billing_icon.png"
             ],
             [
-                "IAM & Admin",
+                "IAM Admin",
                 OpenUrlAction("https://console.cloud.google.com/iam-admin"),
-                "images/gcp_logo.png"
+                "images/iam_admin_icon.png"
             ],
             [
                 "Marketplace",
                 OpenUrlAction("https://console.cloud.google.com/marketplace"),
-                "images/gcp_logo.png"
+                "images/marketplace_icon.png"
             ],
             [
                 "Pricing Calculator",
                 OpenUrlAction("https://cloud.google.com/products/calculator"),
-                "images/gcp_logo.png"
+                "images/pricing_calculator_icon.png"
             ]
         ]
 
