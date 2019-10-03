@@ -80,14 +80,29 @@ class KeywordQueryEventListener(EventListener):
                 "images/security_icon.png"
             ],
             [
-                "Billing",
-                OpenUrlAction("https://console.cloud.google.com/billing"),
-                "images/billing_icon.png"
-            ],
-            [
                 "IAM Admin",
                 OpenUrlAction("https://console.cloud.google.com/iam-admin"),
                 "images/iam_admin_icon.png"
+            ],
+            [
+                "Filestore",
+                OpenUrlAction("https://console.cloud.google.com/filestore"),
+                "images/filestore_icon.png"
+            ],
+            [
+                "Stackdriver Logging",
+                OpenUrlAction("https://console.cloud.google.com/logs"),
+                "images/logging_icon.png"
+            ],
+            [
+                "Stackdriver Monitoring",
+                OpenUrlAction("https://console.cloud.google.com/monitoring"),
+                "images/monitoring_icon.png"
+            ],
+            [
+                "Billing",
+                OpenUrlAction("https://console.cloud.google.com/billing"),
+                "images/billing_icon.png"
             ],
             [
                 "Marketplace",
