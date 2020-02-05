@@ -50,6 +50,16 @@ class KeywordQueryEventListener(EventListener):
                 "images/cloud_functions_icon.png"
             ],
             [
+                "Datastore",
+                OpenUrlAction("https://console.cloud.google.com/datastore"),
+                "images/datastore.png"
+            ],
+            [
+                "BigQuery",
+                OpenUrlAction("https://console.cloud.google.com/bigquery"),
+                "images/big_query.png"
+            ],
+            [
                 "Storage",
                 OpenUrlAction("https://console.cloud.google.com/storage"),
                 "images/storage_icon.png"
